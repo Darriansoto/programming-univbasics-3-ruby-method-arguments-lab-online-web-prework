@@ -1,5 +1,11 @@
-
-
+def introduction(name)
+  print "Hi my name is #{name}."
+end
+def introduction_with_language(name, language)
+  print "Hi my name is #{name} and i know how to program in #{language}."
+end
+def introduction_with_language_optional(name, language ="Ruby")
+  print "Hi my name is #{name} and i know how to program in #{language}."
 
 
 
